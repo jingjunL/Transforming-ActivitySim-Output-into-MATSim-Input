@@ -4,14 +4,15 @@ import os
 
 #step 1: summarise the location chainning of activitySim
 #print output into a log file
-log_file_path = os.path.join("output", "output.log")
-sys.stdout = open(log_file_path, 'w')
+#log_file_path = os.path.join("output", "output.log")
+#sys.stdout = open(log_file_path, 'w')
 
 # read ActivitySim simpled csv
-file_path = "./sample_trips10Perc.csv"
+file_path = "./maasTrip10Perc.csv"
 #file_path = "./bugExample.csv"
 
-output_file_path = "./output/agentTrip10Perc.csv"
+output_file_path = "./output/MaaS/processedMaaS10PercTrip.csv"
+#output_file_path = "./output/fullTrips/MRDHFullTrips.csv"
 #output_file_path = "./output/bugExample.csv"
 
 df = pd.read_csv(file_path)
