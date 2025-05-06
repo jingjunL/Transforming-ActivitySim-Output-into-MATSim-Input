@@ -38,4 +38,4 @@ Just some minor changes, for instance, change the mode "cp" from ActivitySim int
 
 After these steps, you will have a csv containing every information that needed for MATSim plan.xml input :)
 
-We also have another script for directly transforming the csv into MATSim plan, where you could find it here: https://github.com/jingjunL/MATSimXCARCITY 
+We also have another script for directly transforming the csv into MATSim plan, where you could find it here: https://github.com/jingjunL/MATSim-MRDH-XCARCITY
